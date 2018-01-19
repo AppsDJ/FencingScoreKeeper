@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">FencingScoreKeeper</string>
+    <string name="fencer_a_score_value">00</string>
+    <string name="text_view_time_value">00:00</string>
+    <string name="fencer_b_score_value">00</string>
+    <string name="penalty_cards_value">Penalty Cards</string>
+    <string name="yellow_card_to_A_value">0</string>
+    <string name="red_card_to_A_value">0</string>
+    <string name="yellow_card_to_B_value">0</string>
+    <string name="red_card_to_B_value">0</string>
+    <string name="touche_on_A_value">TOUCHE !</string>
+    <string name="yellow_card_to_A_btn_value">Yellow Card</string>
+    <string name="red_card_to_A_btn_value">Red Card</string>
+    <string name="touche_on_B_value">TOUCHE !</string>
+    <string name="yellow_card_to_B_btn_value">Yellow Card</string>
+    <string name="red_card_to_B_btn_value">Red Card</string>
+    <string name="btnStart_value">Start</string>
+    <string name="btnPause_value">Pause</string>
+    <string name="btnResume_value">Resume</string>
+    <string name="btnReset_value">Reset</string>
 </resources>
