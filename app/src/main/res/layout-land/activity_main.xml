@@ -5,17 +5,11 @@
 
     <LinearLayout
         android:id="@+id/top_area"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:orientation="horizontal">
+        style="@style/top_area_land">
 
         <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="200dp"
-            android:layout_marginStart="200dp"
-            android:orientation="vertical">
+            android:id="@+id/score_display_a"
+            style="@style/score_display_a_land">
 
             <ImageView
                 android:id="@+id/red_flag"
@@ -25,39 +19,24 @@
 
             <TextView
                 android:id="@+id/fencer_a_score"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="3dp"
-                android:layout_marginTop="-6dp"
-                android:text="00"
-                android:textColor="#d11725"
-                android:textSize="33sp" />
+                android:text="@string/fencer_a_score_value"
+                style="@style/fencer_a_score_land" />
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:id="@+id/counter_display"
+            style="@style/counter_display_land">
 
 
             <TextView
                 android:id="@+id/text_view_time"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="19dp"
-                android:layout_marginStart="19dp"
-                android:layout_marginTop="11dp"
-                android:text="00:00"
-                android:textColor="#1aba50"
-                android:textSize="25sp" />
+                android:text="@string/text_view_time_value"
+                style="@style/text_view_time_land" />
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_marginStart="20dp"
-            android:orientation="vertical">
+            android:id="@+id/score_display_b"
+            style="@style/score_display_b_land">
 
             <ImageView
                 android:id="@+id/green_flag"
@@ -67,120 +46,65 @@
 
             <TextView
                 android:id="@+id/fencer_b_score"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="3dp"
-                android:layout_marginTop="-6dp"
-                android:text="00"
-                android:textColor="#d11725"
-                android:textSize="33sp" />
+                android:text="@string/fencer_b_score_value"
+                style="@style/fencer_b_score_land" />
         </LinearLayout>
 
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/top_area"
-        android:layout_marginTop="-5dp"
-        android:orientation="horizontal">
+        android:id="@+id/penalty_cards_area"
+        style="@style/penalty_cards_area_land">
 
         <LinearLayout
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:orientation="vertical">
+            android:id="@+id/penalty_cards_a"
+            style="@style/penalty_cards_a_land">
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="6dp"
-                android:layout_marginRight="12dp"
-                android:layout_marginTop="5dp"
-                android:gravity="end"
-                android:text="Penalty Cards"
-                android:textAlignment="viewEnd"
-                android:textColor="#fff" />
+                android:id="@+id/penalty_cards_a_label"
+                android:text="@string/penalty_cards_value"
+                style="@style/penalty_cards_a_label_land" />
 
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="end"
-                android:layout_marginRight="10dp"
-                android:src="@drawable/penalty_cards_land" />
+                android:id="@+id/penalty_cards_a_display"
+                android:src="@drawable/penalty_cards_land"
+                style="@style/penalty_cards_a_display_land" />
 
             <TextView
                 android:id="@+id/yellow_card_to_A"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="end"
-                android:layout_marginRight="69dp"
-                android:layout_marginTop="-30dp"
-                android:text="0"
-                android:textColor="#000"
-                android:textSize="25sp" />
+                android:text="@string/yellow_card_to_A_value"
+                style="@style/yellow_card_to_A_land" />
 
             <TextView
                 android:id="@+id/red_card_to_A"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="end"
-                android:layout_marginRight="28dp"
-                android:layout_marginTop="-34dp"
-                android:text="0"
-                android:textColor="#000"
-                android:textSize="25sp" />
+                android:text="@string/red_card_to_A_value"
+                style="@style/red_card_to_A_land" />
 
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:orientation="vertical">
+            android:id="@+id/penalty_cards_b"
+            style="@style/penalty_cards_b_land">
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="start"
-                android:layout_marginBottom="6dp"
-                android:layout_marginLeft="12dp"
-                android:layout_marginStart="12dp"
-                android:layout_marginTop="5dp"
-                android:text="Penalty Cards"
-                android:textAlignment="viewStart"
-                android:textColor="#fff" />
+                android:id="@+id/penalty_cards_b_label"
+                android:text="@string/penalty_cards_value"
+                style="@style/penalty_cards_b_label_land" />
 
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginStart="10dp"
-                android:src="@drawable/penalty_cards_land" />
+                android:id="@+id/penalty_cards_b_display"
+                android:src="@drawable/penalty_cards_land"
+                style="@style/penalty_cards_b_display_land" />
 
             <TextView
                 android:id="@+id/yellow_card_to_B"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="25dp"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="-30dp"
-                android:text="0"
-                android:textColor="#000"
-                android:textSize="25sp" />
+                android:text="@string/yellow_card_to_B_value"
+                style="@style/yellow_card_to_B_land" />
 
             <TextView
                 android:id="@+id/red_card_to_B"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="55dp"
-                android:layout_marginStart="70dp"
-                android:layout_marginTop="-34dp"
-                android:text="0"
-                android:textColor="#000"
-                android:textSize="25sp" />
+                android:text="@string/red_card_to_B_value"
+                style="@style/red_card_to_B_land" />
         </LinearLayout>
 
 
@@ -189,167 +113,88 @@
 
     <LinearLayout
         android:id="@+id/active_game_area"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="182dp"
-        android:layout_marginStart="195dp"
-        android:layout_marginTop="123dp"
-        android:minWidth="200dp"
-        android:orientation="horizontal">
+        style="@style/active_game_area_land">
 
 
         <LinearLayout
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:orientation="vertical">
+            android:id="@+id/active_game_area_a"
+            style="@style/active_game_area_a">
 
 
             <Button
                 android:id="@+id/touche_on_A"
-                style="@android:style/Widget.Holo.Button.Toggle"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="6dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
+                style="@style/touche_on_A_land"
                 android:onClick="toucheOnA"
-                android:padding="0dp"
-                android:text="TOUCHE !"
-                android:textColor="#fff"
-                android:textSize="12sp"
-                android:textStyle="bold" />
+                android:text="@string/touche_on_A_value" />
 
             <Button
                 android:id="@+id/yellow_card_to_A_btn"
-                style="@android:style/Widget.Holo.Button.Toggle"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="6dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
+                style="@style/yellow_card_to_A_btn_land"
                 android:onClick="giveYellowCardToA"
-                android:padding="0dp"
                 android:src="@drawable/yellow_card_btn"
-                android:text="Yellow Card"
-                android:textColor="#f8e83b"
-                android:textSize="12sp"
-                android:textStyle="bold" />
+                android:text="@string/yellow_card_to_A_btn_value" />
 
             <Button
                 android:id="@+id/red_card_to_A_btn"
-                style="@android:style/Widget.Holo.Button.Toggle"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
+                style="@style/red_card_to_A_btn_land"
                 android:onClick="giveRedCardToA"
-                android:padding="0dp"
                 android:src="@drawable/red_card_btn"
-                android:text="Red Card"
-                android:textColor="#ff0000"
-                android:textSize="12sp"
-                android:textStyle="bold" />
+                android:text="@string/red_card_to_A_btn_value" />
 
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:orientation="vertical">
+            android:id="@+id/active_game_area_b"
+            style="@style/active_game_area_b_land">
 
 
             <Button
                 android:id="@+id/touche_on_B"
-                style="@android:style/Widget.Holo.Button.Toggle"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="6dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
+                style="@style/touche_on_B_land"
                 android:onClick="toucheOnB"
-                android:padding="0dp"
-                android:text="TOUCHE !"
-                android:textColor="#fff"
-                android:textSize="12sp"
-                android:textStyle="bold" />
+                android:text="@string/touche_on_B_value" />
 
             <Button
                 android:id="@+id/yellow_card_to_B_btn"
-                style="@android:style/Widget.Holo.Button.Toggle"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="6dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
+                style="@style/yellow_card_to_B_btn_land"
                 android:onClick="giveYellowCardToB"
-                android:padding="0dp"
-                android:text="Yellow Card"
-                android:textColor="#f8e83b"
-                android:textSize="12sp"
-                android:textStyle="bold" />
+                android:text="@string/yellow_card_to_B_btn_value" />
 
             <Button
                 android:id="@+id/red_card_to_B_btn"
-                style="@android:style/Widget.Holo.Button.Toggle"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
+                style="@style/red_card_to_B_btn_land"
                 android:onClick="giveRedCardToB"
-                android:padding="0dp"
                 android:src="@drawable/red_card_btn"
-                android:text="Red Card"
-                android:textColor="#ff0000"
-                android:textSize="12sp"
-                android:textStyle="bold" />
+                android:text="@string/red_card_to_B_btn_value" />
         </LinearLayout>
 
 
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="10dp"
-        android:layout_marginLeft="122dp"
-        android:layout_marginRight="10dp">
+        android:id="@+id/control_buttons_area"
+        style="@style/control_buttons_area_land">
 
         <Button
             android:id="@+id/btnStart"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Start"
-            android:textStyle="bold" />
+            android:text="@string/btnStart_value"
+            style="@style/btnStart_land" />
 
         <Button
             android:id="@+id/btnPause"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Pause"
-            android:textStyle="bold" />
+            android:text="@string/btnPause_value"
+            style="@style/btnPause_land" />
 
         <Button
             android:id="@+id/btnResume"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Resume"
-            android:textStyle="bold" />
+            android:text="@string/btnResume_value"
+            style="@style/btnResume_land" />
 
         <Button
             android:id="@+id/btnReset"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:onClick="resetScore"
-            android:text="Reset"
-            android:textStyle="bold" />
+            android:text="@string/btnReset_value"
+            style="@style/btnReset_land" />
     </LinearLayout>
 
 
