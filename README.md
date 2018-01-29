@@ -19,4 +19,4 @@ While match score keeping  is active:
 - At press ‘Red card’ the card is recorded in the ‘Penalty Cards’ score keeper. One point is deducted off the score of fencer at fault.
 - At Countdown timer reaching 00:00 all buttons are deactivated except ‘Reset’. Scores are still being displayed.
 - At press ‘Reset’ timer is reset to 03:00, scores cleared to 0 and all buttons deactivated except ‘Start’.
-- On screen rotation all state
+- On screen rotation all states (counter, scores, buttons activation states) are saved and restored seamlessly in new screen orientation.
