@@ -1,4 +1,4 @@
-FENCING MATCH SCOREKEEPER
+## FENCING MATCH SCOREKEEPER
 
 A scorekeeper app for a slightly simplified fencing match.
 
