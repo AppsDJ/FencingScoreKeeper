@@ -294,8 +294,8 @@
     <style name="score_display_a_land">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginLeft">200dp</item>
-        <item name="android:layout_marginStart">200dp</item>
+        <item name="android:layout_marginLeft">203dp</item>
+        <item name="android:layout_marginStart">203dp</item>
         <item name="android:orientation">vertical</item>
     </style>
 
@@ -541,7 +541,7 @@
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_alignParentBottom">true</item>
-        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_marginBottom">7dp</item>
         <item name="android:layout_marginLeft">122dp</item>
         <item name="android:layout_marginRight">10dp</item>
     </style>
