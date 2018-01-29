@@ -424,15 +424,12 @@ public class MainActivity extends AppCompatActivity {
         timeIntoGame = savedInstanceState.getLong(TIME_INTO_GAME);
         millis = savedInstanceState.getLong(MILLISECONDS_LEFT);
         hms = savedInstanceState.getString(HMS);
+
         orientationChanged = savedInstanceState.getBoolean(ORIENTATION_CHANGED);
-
-        //Log.d("TAG","orient in restore : " + String.valueOf(orientationChanged));
-
         btnStart.setEnabled(savedInstanceState.getBoolean(BUTTON_START_VALUE));
         btnPause.setEnabled(savedInstanceState.getBoolean(BUTTON_PAUSE_VALUE));
         btnResume.setEnabled(savedInstanceState.getBoolean(BUTTON_RESUME_VALUE));
         btnReset.setEnabled(savedInstanceState.getBoolean(BUTTON_RESET_VALUE));
-
         imgBtnToucheOnA.setEnabled(savedInstanceState.getBoolean(IMAGE_BUTTON_TOUCHE_TO_A));
         imgBtnToucheOnB.setEnabled(savedInstanceState.getBoolean(IMAGE_BUTTON_TOUCHE_TO_B));
         btnYellowCardToA.setEnabled(savedInstanceState.getBoolean(BUTTON_YELLOW_CARD_TO_A));
