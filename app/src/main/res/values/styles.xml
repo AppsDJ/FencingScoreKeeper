@@ -193,7 +193,7 @@
         <item name="android:layout_marginRight">35dp</item>
         <item name="android:padding">0dp</item>
         <item name="android:textStyle">bold</item>
-        <item name="android:textColor">#f8e83b</item>
+        <item name="android:textColor">#fff389</item>
     </style>
 
     <style name="red_card_to_A_btn_portrait" parent="android:Widget.Holo.Button.Toggle">
@@ -204,7 +204,7 @@
         <item name="android:layout_marginRight">35dp</item>
         <item name="android:padding">0dp</item>
         <item name="android:textStyle">bold</item>
-        <item name="android:textColor">#ff0000</item>
+        <item name="android:textColor">#ff8585</item>
     </style>
 
     <style name="active_game_area_b_portrait">
