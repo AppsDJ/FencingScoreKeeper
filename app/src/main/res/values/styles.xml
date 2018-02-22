@@ -11,15 +11,14 @@
     <style name="top_area_portrait">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginTop">24dp</item>
+        <item name="android:layout_marginTop">32dp</item>
+        <item name="android:gravity">center_horizontal</item>
         <item name="android:orientation">horizontal</item>
     </style>
 
     <style name="score_display_a_portrait">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginLeft">90dp</item>
-        <item name="android:layout_marginStart">90dp</item>
         <item name="android:orientation">vertical</item>
     </style>
 
@@ -69,6 +68,7 @@
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_below">@+id/top_area</item>
+        <item name="android:layout_marginTop">28dp</item>
         <item name="android:orientation">horizontal</item>
     </style>
 
@@ -91,9 +91,6 @@
     <style name="penalty_cards_a_display_portrait">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginLeft">30dp</item>
-        <item name="android:layout_marginRight">30dp</item>
-        <item name="android:layout_marginStart">30dp</item>
     </style>
 
     <style name="yellow_card_to_A_portrait">
@@ -135,9 +132,6 @@
     <style name="penalty_cards_b_display_portrait">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginLeft">30dp</item>
-        <item name="android:layout_marginRight">30dp</item>
-        <item name="android:layout_marginStart">30dp</item>
     </style>
 
     <style name="yellow_card_to_B_portrait">
@@ -163,7 +157,7 @@
     <style name="active_game_area_portrait">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginTop">335dp</item>
+        <item name="android:layout_marginTop">400dp</item>
         <item name="android:orientation">horizontal</item>
     </style>
 
@@ -233,7 +227,7 @@
         <item name="android:layout_marginRight">35dp</item>
         <item name="android:textStyle">bold</item>
         <item name="android:padding">0dp</item>
-        <item name="android:textColor">#f8e83b</item>
+        <item name="android:textColor">#fff389</item>
     </style>
 
     <style name="red_card_to_B_btn_portrait" parent="android:Widget.Holo.Button.Toggle">
@@ -244,7 +238,7 @@
         <item name="android:layout_marginRight">35dp</item>
         <item name="android:padding">0dp</item>
         <item name="android:textStyle">bold</item>
-        <item name="android:textColor">#ff0000</item>
+        <item name="android:textColor">#ff8585</item>
     </style>
 
     <style name="control_buttons_area_portrait">
@@ -287,15 +281,14 @@
     <style name="top_area_land">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:gravity">center_horizontal</item>
         <item name="android:orientation">horizontal</item>
     </style>
 
     <style name="score_display_a_land">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginLeft">203dp</item>
-        <item name="android:layout_marginStart">203dp</item>
         <item name="android:orientation">vertical</item>
     </style>
 
@@ -344,10 +337,8 @@
     <style name="penalty_cards_area_land">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_alignParentLeft">true</item>
-        <item name="android:layout_alignParentStart">true</item>
         <item name="android:layout_below">@+id/top_area</item>
-        <item name="android:layout_marginTop">-5dp</item>
+        <item name="android:layout_marginTop">16dp</item>
         <item name="android:orientation">horizontal</item>
     </style>
 
@@ -445,9 +436,7 @@
     <style name="active_game_area_land">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginLeft">182dp</item>
-        <item name="android:layout_marginStart">195dp</item>
-        <item name="android:layout_marginTop">123dp</item>
+        <item name="android:layout_marginTop">153dp</item>
         <item name="android:minWidth">200dp</item>
         <item name="android:orientation">horizontal</item>
     </style>
@@ -478,7 +467,7 @@
         <item name="android:layout_marginLeft">10dp</item>
         <item name="android:layout_marginRight">10dp</item>
         <item name="android:padding">0dp</item>
-        <item name="android:textColor">#f8e83b</item>
+        <item name="android:textColor">#fff389</item>
         <item name="android:textSize">12sp</item>
         <item name="android:textStyle">bold</item>
     </style>
@@ -489,7 +478,7 @@
         <item name="android:layout_marginLeft">10dp</item>
         <item name="android:layout_marginRight">10dp</item>
         <item name="android:padding">0dp</item>
-        <item name="android:textColor">#ff0000</item>
+        <item name="android:textColor">#ff8585</item>
         <item name="android:textSize">12sp</item>
         <item name="android:textStyle">bold</item>
     </style>
@@ -520,7 +509,7 @@
         <item name="android:layout_marginLeft">10dp</item>
         <item name="android:layout_marginRight">10dp</item>
         <item name="android:padding">0dp</item>
-        <item name="android:textColor">#f8e83b</item>
+        <item name="android:textColor">#fff389</item>
         <item name="android:textSize">12sp</item>
         <item name="android:textStyle">bold</item>
     </style>
@@ -532,7 +521,7 @@
         <item name="android:layout_marginLeft">10dp</item>
         <item name="android:layout_marginRight">10dp</item>
         <item name="android:padding">0dp</item>
-        <item name="android:textColor">#ff0000</item>
+        <item name="android:textColor">#ff8585</item>
         <item name="android:textSize">12sp</item>
         <item name="android:textStyle">bold</item>
     </style>
@@ -542,8 +531,6 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_alignParentBottom">true</item>
         <item name="android:layout_marginBottom">7dp</item>
-        <item name="android:layout_marginLeft">122dp</item>
-        <item name="android:layout_marginRight">10dp</item>
     </style>
 
     <style name="btnStart_land">

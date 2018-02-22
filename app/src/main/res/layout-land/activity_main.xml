@@ -113,6 +113,7 @@
 
     <LinearLayout
         android:id="@+id/active_game_area"
+        android:layout_centerHorizontal="true"
         style="@style/active_game_area_land">
 
 
@@ -173,6 +174,7 @@
 
     <LinearLayout
         android:id="@+id/control_buttons_area"
+        android:layout_centerHorizontal="true"
         style="@style/control_buttons_area_land">
 
         <Button

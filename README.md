@@ -14,6 +14,7 @@ A scorekeeper app for a slightly simplified fencing match.
 ### Screenshots
 
 ![alt text](https://github.com/AppsDJ/FencingScoreKeeper/blob/master/fencing_score_keeper_prortrait_3.png)
+
 ![alt text](https://github.com/AppsDJ/FencingScoreKeeper/blob/master/fencing_score_keeper_land_2.png)
 
 

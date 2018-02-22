@@ -67,6 +67,7 @@
             <ImageView
                 android:id="@+id/penalty_cards_a_display"
                 android:src="@drawable/penalty_cards"
+                android:layout_gravity="center_horizontal"
                 style="@style/penalty_cards_a_display_portrait" />
 
             <TextView
@@ -93,6 +94,7 @@
             <ImageView
                 android:id="@+id/penalty_cards_b_display"
                 android:src="@drawable/penalty_cards"
+                android:layout_gravity="center_horizontal"
                 style="@style/penalty_cards_b_display_portrait" />
 
             <TextView
